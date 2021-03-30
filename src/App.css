@@ -93,21 +93,26 @@ div#preview img + em {
   }
 
   #button-row button {
-    width: 50%;
+    //width: 50%;
     display: inline-block;
   }
 }
 
-#Button-row {
+#button-row {
   padding: 5px;
+  display:flex;
+  justify-content: space-around;
 }
 
 #button-row button {
-  width: 50%;
+  /*width: 50%;*/
   display: inline-block;
   border: none;
   height: calc(100vh - 650px);
   font-size: calc(10px + 2vmin);
+  border-radius: 5px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 button#edit-button {

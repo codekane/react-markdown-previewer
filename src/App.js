@@ -7,7 +7,7 @@ var instructions = `
 # Why
 I write a lot in Markdown. [Typora](https://typora.io/) is my preferred app, which, unlike this app has the editor and the previewer rolled into one. It's very good, and I recommend it highly, however what I've sought to do here isn't to build the best app for writing Markdown. What I've sought to do here is to finish a React project for the [freecodecamp](https://www.freecodecamp.org/) module I've been working on.
 
-Markdown is (counter-intuitively) a markup language. It compiles into HTML, PDF, or virtually any other format, yet it can be written using a simple text editor. The reason I prefer it to most word processors is the lack of formatting. The lack of obtuse formatting, I mean. The output can be flavoured with CSS to look any way you want it, which can be a bit more work, but is infinitely more maintainable than something like a Word Document. There are a variety of blogging engines set up to work with markdown files (looking at you [jekyllrb](https://jekyllrb.com/) and parsers are readily available to integrate it into your projects.
+Markdown is (counter-intuitively) a markup language. It compiles into HTML, PDF, or virtually any other format, yet it can be written using a simple text editor. The reason I prefer it to most word processors is the lack of formatting. The lack of obtuse formatting, I mean. The output can be flavoured with CSS to look any way you want it, which can be a bit more work, but is infinitely more maintainable than something like a Word Document. There are a variety of blogging engines set up to work with markdown files (looking at you [jekyllrb](https://jekyllrb.com/)\) and parsers are readily available to integrate it into your projects.
 
 ## Headers
 
@@ -156,9 +156,9 @@ function App() {
           </div>
         </div>
         <div class="row" id="button-row">
-          <button class="col" id="edit-button"
+          <button id="edit-button"
                   onClick={handleEditButton.bind(this)}>Edit</button>
-          <button class="col" id="preview-button"
+          <button id="preview-button"
                   onClick={handlePreviewButton.bind(this)}>Preview</button>
         </div>
       </div>
